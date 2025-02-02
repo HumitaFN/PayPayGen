@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1a1a2e;
+    color: #d1d1d1;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+input[type="tel"] {
+    width: 180px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #555;
+    border-radius: 8px;
+    background-color: #222;
+    color: #d1d1d1;
+    text-align: center;
+}
+
+input[type="button"] {
+    background: #6a11cb;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+input[type="button"]:hover {
+    background: #5a0fbf;
+}
+
+#generated {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #29293d;
+    min-height: 60px;
+    color: #d1d1d1;
+    font-size: 16px;
+    border: 1px solid #444;
+}
+
+#generated a {
+    color: #8a8aff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#generated a:hover {
+    color: #b3b3ff;
+    text-decoration: underline;
+}
+
+.card {
+    padding: 25px;
+    border-radius: 12px;
+    background-color: #1a1a2e;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    background: #1DA1F2;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 8px;
+    opacity: 0.9;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #0d8bce;
+    opacity: 1;
+}
